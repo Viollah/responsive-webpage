@@ -18,6 +18,20 @@
         align-items: center;
 
     }
+    .city-container,h2{
+        text-align: center;
+        font-size: 30px;
+        }
+        .city-container,.city-image{
+            text-align: center;
+            font-size: 30px;
+            }
+    .city-card p{
+        text-align: justify;
+        font-size: 20px;
+
+    }
+   
     .foreign_languages{
         display: flex;
         flex-wrap: wrap;
