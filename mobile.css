@@ -67,15 +67,70 @@
             text-align: center;
             border-radius: 2em;  
         }
-        .content{
+        /*.content{
             margin: 0;
             padding: 0;
             text-align: center;
 
         }
-        .history.content{
-            text-align: center;
+        .content,h3{
+            text-align:left;
+            font-size: 20px;
+        }
+        .content,p{
+            text-align:left;
+            font-size: 20px;
+        }
+        .content img{
+            border-radius: 1em;
+            align-items: right;
+        }*/
+        div.content{
+            display: flex;
             margin: 0;
             padding: 0;
+             }
+        div#first p{
+            font-size: 10px;
+            text-align: left;
+        }
+        div#first h3{
+            font-size: 20px;
+            text-align: left;
+        }
+        div#first img{
+            width: 100px;
+            height: 100px;
+            text-align: right;
+        }
+        div#second p{
+            font-size: 10px;
+            text-align: left;
+        }
+        div#second h3{
+            font-size: 15px;
+            text-align: right;
+        }
+        div#second img{
+            width: 100px;
+            height: 100px;
+            text-align: left;
+        }
+        div#third p{
+            font-size: 10px;
+            text-align: left;
+        }
+        div#third h3{
+            font-size: 15px;
+            text-align: left;
+        }
+        div#third img{
+            width: 100px;
+            height: 100px;
+            text-align: right;
+        }
+        footer{
+            text-align: center;
+           
         }
 }
