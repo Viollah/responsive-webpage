@@ -22,9 +22,15 @@
         text-align: center;
         font-size: 30px;
         }
-        .city-container,.city-image{
+        .city-container p{
+            font-size: 20px;
             text-align: center;
-            font-size: 30px;
+        }
+        
+        .city-container.city-image{
+            text-align: center;
+            border-radius: 1em;
+            
             }
     .city-card p{
         text-align: justify;

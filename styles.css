@@ -50,9 +50,13 @@ body{
      font-size: 30px;
      text-align: center;
  }
- .city-container p{
+ .city-card p{
     font-size: 20px;
     text-align: center;
+}
+.city-container.city-image{
+    text-align: center;
+    border-radius: 1em;
 }
 
  .city-image{
